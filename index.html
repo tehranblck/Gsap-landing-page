@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehran Bayram</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div id="cursor" class="cursor">
+        <div id="dot" class="dot"></div>
+    </div>
+    <div class="intro_container">
+        <div class="imageContainer" id="imageContainer">
+            <img src="./img/img1.webp" alt="image" class="img">
+            <img src="./img/img2.webp" alt="image" class="img">
+            <img src="./img/img3.jpg" alt="image" class="img">
+            <img src="./img/img4.jpg" alt="image" class="img">
+            <img src="./img/img5.jpg" alt="image" class="img">
+            <img src="./img/img1.webp" alt="image" class="img imgLast1">
+            <img src="./img/img2.webp" alt="image" class="img imgLast2">
+            <img src="./img/img3.jpg" alt="image" class="img imgLast3">
+            <img src="./img/img4.jpg" alt="image" class="img imgLast4">
+            <img src="./img/img5.jpg" alt="image" class="img imgLast5">
+        </div>
+    </div>
+    <nav>
+        <span class="nav_anim zoom">Hero Text There!</span>
+        <div class="nav_items">
+            <span class="nav_anim zoom">Home</span>
+            <span class="nav_anim zoom">Contact</span>
+            
+        </div>
+    </nav>
+    <div class="content">
+        <h2 class="anim_item zoom">Lebron James</h2>
+        <span class="sub_hero anim_item zoom">Lorem ipsum dolor sit amet. br Lorem, ipsum dolor.</span>
+        <div class="sub_details anim_item">
+            <span>Type</span>
+            <span>Here</span>
+            <span>Different</span>
+            <span>Things</span>
+            <span>OK?</span>
+        </div>
+    </div>
+    <div class="slider">
+        <img src="./img/img1.webp" alt="" onclick="animation('.imgLast1')">
+        <img src="./img/img2.webp" alt="" onclick="animation('.imgLast2')">
+        <img src="./img/img3.jpg" alt="" onclick="animation('.imgLast3')">
+        <img src="./img/img4.jpg" alt="" onclick="animation('.imgLast4')">
+        <img src="./img/img5.jpg" alt="" onclick="animation('.imgLast5')">
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+    <script src="./cursor.js"></script>
+</body>
+</html>
